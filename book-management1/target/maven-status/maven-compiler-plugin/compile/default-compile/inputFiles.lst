@@ -1,1 +1,8 @@
 /Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/BookManagement1Application.java
+/Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/controller/BookController.java
+/Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/entity/Book.java
+/Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/reponsitory/BookRepository.java
+/Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/config/BaseConfig.java
+/Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/model/BookPartialDTO.java
+/Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/model/BookDTO.java
+/Users/ngoctham/Documents/LikeLion/Spring /book-management1/src/main/java/com/example/bookmanagement1/service/BookService.java

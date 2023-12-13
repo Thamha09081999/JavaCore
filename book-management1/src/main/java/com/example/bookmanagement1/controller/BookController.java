@@ -7,7 +7,7 @@ import com.example.bookmanagement1.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
+
 
 @RestController
 @RequestMapping("/books")
@@ -44,4 +44,11 @@ public class BookController {
     public BookDTO update(@PathVariable("bookId") int id, @RequestBody BookPartialDTO dto){
         return bookService.updatePartialDTO(id,dto);
     }
+
+    @DeleteMapping("{bookId}")
+    public String delete(@PathVariable ("bookId") int id){
+        bookService.delete(id);
+        return "success";
+    }
+
 }

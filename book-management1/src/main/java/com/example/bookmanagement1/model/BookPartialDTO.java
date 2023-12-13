@@ -14,7 +14,7 @@ public class BookPartialDTO {
 
     }
     public void setId(int id) {
-        this.id = Optional.of(id);
+        this.id = Optional.ofNullable(id);
     }
 
     public  Optional <Integer> getId() {
@@ -22,7 +22,7 @@ public class BookPartialDTO {
     }
 
     public void setName(String name) {
-        this.name = Optional.of(name);
+        this.name = Optional.ofNullable(name);
     }
 
     public Optional <String> getName() {
@@ -30,7 +30,7 @@ public class BookPartialDTO {
     }
 
     public void setDescription(String description) {
-        this.description = Optional.of(description);
+        this.description = Optional.ofNullable(description);
     }
 
     public Optional <String> getDescription(){

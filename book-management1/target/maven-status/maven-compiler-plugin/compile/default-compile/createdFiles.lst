@@ -1,1 +1,8 @@
+com/example/bookmanagement1/service/BookService.class
+com/example/bookmanagement1/controller/BookController.class
+com/example/bookmanagement1/model/BookDTO.class
+com/example/bookmanagement1/entity/Book.class
+com/example/bookmanagement1/reponsitory/BookRepository.class
 com/example/bookmanagement1/BookManagement1Application.class
+com/example/bookmanagement1/config/BaseConfig.class
+com/example/bookmanagement1/model/BookPartialDTO.class

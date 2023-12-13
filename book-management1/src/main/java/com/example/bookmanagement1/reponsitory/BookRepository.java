@@ -16,9 +16,19 @@ public class BookRepository {
         books.add(new Book(4,"Cuon theo chieu gio","novel"));
     }
 
+//    public Book getByID(int id){
+//
+//        for(int i = 0; i < books.size(); i++){
+//            if(books.get(i).getId() == id){
+//               return books.get(i);
+//            }
+//        }
+//        return null;
+//    }
+
+//Sai
     public Book getByID(int id){
         for (Book book:books) {
-
             if(book.getId() == id){
                 return book;
             }
@@ -81,5 +91,13 @@ public class BookRepository {
 
     public ArrayList <Book> getListBook(){
         return books;
+    }
+
+    public void deleteByID(int id){
+        for (int i = 0; i < books.size(); i++) {
+            if (books.get(i).getId() == id){
+                books.remove(i);
+            }
+        }
     }
 }
